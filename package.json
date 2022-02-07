@@ -1,5 +1,9 @@
 {
-  "name": "wordle_cli",
+  "name": "@andrew_hamlett/wordle_cli",
+  "engines": {
+    "node": ">=0.14"
+  },
+  "engineStrict": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +18,8 @@
     "chalk": "^5.0.0",
     "figlet": "^1.5.2",
     "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }

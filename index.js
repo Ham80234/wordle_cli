@@ -126,7 +126,7 @@ let checkAnswer = async (value, solution) => {
 
 
 while(UsedWords.length != 4 && !winner){ 
-
+    console.log(usedLetters)
     let guess = await MakeGuess()
     await checkAnswer(await guess, await getword())
     await dipsplay()
